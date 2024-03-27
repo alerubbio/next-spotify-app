@@ -19,7 +19,7 @@ export default function HomePage() {
         <>
           <p>You are not logged in.</p>
           <div>
-            <button onClick={() => signIn('spotify', { callbackUrl: '/' })}>Log in with Spotify</button>
+            <button onClick={() => signIn('spotify')}>Log in with Spotify</button>
           </div>
         </>
         
